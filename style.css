@@ -1,0 +1,114 @@
+body {
+  background-color: #f9ceff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+input {
+  border: none;
+  padding: 16px;
+  border-radius: 16px;
+  width: 40%;
+  background-color: white;
+  border: 3px solid #000;
+}
+
+button {
+  border: none;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #aa54aa;
+  color: white;
+  margin-left: 20px;
+  border: 3px solid #000;
+}
+
+.row {
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+}
+
+.coin {
+  display: block;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #000;
+}
+
+.yen500 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #fffea9;
+}
+
+.yen100 {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #cfcfcf;
+}
+
+.yen50 {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #cecece;
+}
+
+.yen10 {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #bd8e68;
+}
+
+.yen5 {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #bdb468;
+}
+
+.yen1 {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ececec;
+}
+
+.many {
+  text-align: center;
+  font-size: 36px;
+  margin: 0;
+}
+
+span {
+  font-weight: bold;
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(249, 206, 255);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+input {
+  border: none;
+  padding: 16px;
+  border-radius: 16px;
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid #000;
+}
+
+button {
+  border: none;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: rgb(170, 84, 170);
+  color:white;
+  margin-left: 20px;
+  border: 3px solid #000;
+}
+
+.row {
+text-align: center;
+margin-bottom: 20%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.coin {
+  display: block;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #000;
+
+
+}
+
+.yen500 {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+   background-color: rgb(255, 254, 169);
+ }
+.yen100 {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+   background-color: rgb(207, 207, 207);
+ }
+.yen50 {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+   background-color: rgb(206, 206, 206);
+ }
+.yen10 {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+   background-color: rgb(189, 142, 104);
+ }
+.yen5 {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+   background-color: rgb(189, 180, 104);
+ }
+.yen1 {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+   background-color: rgb(236, 236, 236);
+ }
+
+ .many {
+   text-align: center;
+   font-size: 36px;
+   margin: 0;
+ }
+
+ span {
+   font-weight: bold;
+   font-size: 18px;
+ }
